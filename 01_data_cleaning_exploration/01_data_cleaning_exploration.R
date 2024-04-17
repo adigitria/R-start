@@ -5,7 +5,7 @@
 library(tidyverse)
 
 # Load dataset
-data <- read.csv("your_dataset.csv")
+data <- read.csv("test_data_cleaning.csv")
 
 # Explore structure
 str(data)

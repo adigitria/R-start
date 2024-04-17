@@ -5,7 +5,7 @@ library(shiny)
 library(tidyverse)
 
 # Sample data
-data <- read.csv("your_dataset.csv")
+data <- read.csv("test_data_shiny.csv")
 
 # UI
 ui <- fluidPage(

@@ -5,7 +5,7 @@
 library(tidyverse)
 
 # Load dataset
-data <- read.csv("your_dataset.csv")
+data <- read.csv("test_data_visualization.csv")
 
 # Scatter plot
 ggplot(data, aes(x = VariableX, y = VariableY)) +

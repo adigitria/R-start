@@ -6,7 +6,7 @@ library(tidyverse)
 library(broom)
 
 # Load dataset
-data <- read.csv("your_dataset.csv")
+data <- read.csv("test_data_regression.csv")
 
 # Fit linear model
 model <- lm(Outcome ~ Predictor1 + Predictor2, data = data)
