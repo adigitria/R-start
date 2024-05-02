@@ -3,9 +3,10 @@
 
 library(shiny)
 library(tidyverse)
+library(here)
 
 # Sample data
-data <- read.csv("test_data_shiny.csv")
+data <- read.csv(here("04_shiny_dashboard/test_data_shiny.csv"))
 
 # UI
 ui <- fluidPage(

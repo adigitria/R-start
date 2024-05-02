@@ -3,9 +3,10 @@
 
 # Load libraries
 library(tidyverse)
+library(here)
 
 # Load dataset
-data <- read.csv("test_data_cleaning.csv")
+data <- read.csv(here("01_data_cleaning_exploration/test_data_cleaning.csv"))
 
 # Explore structure
 str(data)
@@ -19,5 +20,5 @@ data_clean <- data %>%
 
 # Basic dplyr operations
 data_clean %>%
-  group_by(CategoryColumn) %>%
-  summarize(MeanValue = mean(NumericColumn, na.rm = TRUE))
+  group_by(Department) %>%
+  summarize(MeanSalary = mean(Salary, na.rm = TRUE))

@@ -3,9 +3,10 @@
 
 # Load libraries
 library(tidyverse)
+library(here)
 
 # Load dataset
-data <- read.csv("test_data_visualization.csv")
+data <- read.csv(here("02_data_visualization_ggplot2/test_data_visualization.csv"))
 
 # Scatter plot
 ggplot(data, aes(x = VariableX, y = VariableY)) +
