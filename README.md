@@ -73,7 +73,7 @@ r-learning-projects/
 
 1. Clone the repo  
    ```bash
-   git clone https://github.com/your-username/r-learning-projects.git
+   git clone https://github.com/adigitria/R-start.git
    ```
 2. Open RStudio or VS Code with R extension
 3. Navigate into any project folder and run the script or open `.Rmd`/`.R` files
